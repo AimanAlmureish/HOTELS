@@ -1,0 +1,60 @@
+#footer {
+  background-color: #2e2e2e;
+  color: white; }
+  #footer a {
+    color: white;
+    text-decoration: none; }
+  #footer .footer-text-list ul {
+    list-style: none;
+    display: contents; }
+    #footer .footer-text-list ul .login {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      right: -152px;
+      top: 0;
+      padding: 11px;
+      background-color: #e91e63;
+      padding-right: 44px;
+      padding-left: 44px;
+      font-size: 16px;
+      border-style: solid;
+      border-radius: 30px;
+      border-color: transparent;
+      transition: all .3s;
+      margin: 14px; }
+    #footer .footer-text-list ul .register {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      right: -152px;
+      top: 0;
+      padding: 11px;
+      background-color: transparent;
+      padding-right: 44px;
+      padding-left: 44px;
+      font-size: 16px;
+      border-style: solid;
+      border-radius: 30px;
+      border-color: rgba(225, 193, 255, 0.397);
+      transition: all .3s;
+      margin: 14px; }
+    #footer .footer-text-list ul .register:hover {
+      display: flex;
+      color: white;
+      text-decoration: none;
+      font-size: 17px;
+      right: -152px;
+      top: 0;
+      padding: 11px;
+      background-color: #e91e63;
+      padding-right: 44px;
+      padding-left: 44px;
+      font-size: 16px;
+      border-style: solid;
+      border-radius: 30px;
+      border-color: transparent;
+      transition: all .3s;
+      margin: 14px; }

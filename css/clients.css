@@ -1,0 +1,38 @@
+#clients .clients-whole {
+  box-sizing: border-box;
+  transform-style: inherit;
+  margin-top: 0;
+  height: 50vh; }
+  #clients .clients-whole::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(233, 30, 99, 0.31), #e91e63), url(../images/hotel3.jpg);
+    transform: translateZ(-1px) scale(2);
+    width: 108vw;
+    height: 134vh;
+    z-index: -1;
+    background-position-y: 0px;
+    margin-top: 0px;
+    position: absolute;
+    background-size: contain; }
+  #clients .clients-whole .item {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 87px;
+    padding: 16px; }
+    #clients .clients-whole .item .client-img img {
+      width: 100%; }
+  @media (max-width: 992px) {
+    #clients .clients-whole .item {
+      background-color: whitesmoke;
+      display: flex;
+      align-items: center;
+      place-content: center;
+      margin: 0px;
+      padding: 17px; } }

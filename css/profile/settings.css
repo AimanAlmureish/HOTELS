@@ -1,0 +1,17 @@
+#edit-information .my-active {
+  color: #ec97b4; }
+
+#edit-information .settings-list ul {
+  display: flex;
+  list-style: none; }
+  #edit-information .settings-list ul a {
+    margin: 2rem;
+    text-decoration: none;
+    transition: all .3s;
+    font-size: calc(1em + 1vw); }
+    #edit-information .settings-list ul a:hover {
+      color: #ec97b4;
+      transition: all .3s; }
+
+#edit-information .settings-list .edit-info .edit-name input {
+  padding: 4rem; }

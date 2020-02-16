@@ -1,0 +1,9 @@
+#developers .whole-dev .dev-img img {
+  border-style: solid;
+  clip-path: circle(83px); }
+
+#developers .whole-dev .dev-icons {
+  font-size: 31px; }
+  #developers .whole-dev .dev-icons a {
+    text-decoration: none;
+    color: rgba(98, 10, 180, 0.61); }

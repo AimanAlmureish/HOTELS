@@ -1,0 +1,15 @@
+#services .heading {
+  text-align: center; }
+
+#services .whole-service {
+  padding: 30px;
+  border-style: hidden;
+  border-radius: 7px;
+  background-color: rgba(225, 193, 255, 0.397); }
+  #services .whole-service .service-icon {
+    text-align: center;
+    font-size: 81px;
+    color: #e91e63; }
+  #services .whole-service .service-text {
+    font-size: 15px;
+    color: black; }

@@ -1,0 +1,146 @@
+#nav-portrait {
+  /* .port-img {
+        background-image: linear-gradient(rgba(167, 114, 216, 0.432), rgba(0, 0, 0, 0.432)), url(../images/portrait.jpg);
+        background-size: cover;
+
+    }
+    @media (max-width:767px) {
+        .port-img {
+            background-image: linear-gradient(rgba(167, 114, 216, 0.432), rgba(0, 0, 0, 0.432)), url(../images/portrait.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 120vh;
+            z-index: 0;
+            top: 0px;
+            background-position-y: -45px;
+            background-attachment: fixed;
+            margin-top: -278px;
+        }
+    }
+    .port-text {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        span {
+            font-size: 1.4em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+        h2 {
+            text-align: center;
+            font-size: 5em;
+            font-weight: 100;
+            color: whitesmoke;
+        }
+        .buttons {
+            @include buttons;
+        }
+    }
+    @media (max-width:767px) {
+        .port-text {
+            position: absolute;
+            top: 7%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+    }*/
+  /*       .port-search{
+           position: absolute;
+           top: 61%;
+           left: 45%;
+           transform: translate(-50%, 50%);
+           input{
+             width: 21em;
+             padding: 8px;
+             border-style: hidden;
+             border-radius: 6px;           }
+         }*/ }
+  #nav-portrait .port-img {
+    box-sizing: border-box;
+    transform-style: inherit;
+    width: 100vw;
+    height: 97vh;
+    margin-top: -187px; }
+    #nav-portrait .port-img:before {
+      background: 50% 10% / cover; }
+    #nav-portrait .port-img::before {
+      bottom: 0;
+      content: "";
+      left: 0;
+      right: 0;
+      display: block;
+      background-repeat: no-repeat;
+      background-image: linear-gradient(rgba(233, 30, 99, 0.31), rgba(233, 30, 99, 0.31)), url(../images/hotel3.jpg);
+      transform: translateZ(-1px) scale(2);
+      width: 100vw;
+      height: 131vh;
+      z-index: -1;
+      background-position-y: 97px;
+      margin-top: 0px;
+      position: absolute; }
+  #nav-portrait .port-button {
+    position: absolute;
+    top: 59%;
+    left: 40%;
+    transform: translate(-50%, 50%); }
+  @media (max-width: 992px) {
+    #nav-portrait .port-button {
+      position: absolute;
+      top: 68%;
+      left: 44%;
+      transform: translate(-50%, 50%); } }
+  @media (max-width: 767px) {
+    #nav-portrait .port-button {
+      position: absolute;
+      top: 68%;
+      left: 40%;
+      transform: translate(-50%, 50%); } }
+  @media (max-width: 501px) {
+    #nav-portrait .port-button {
+      position: absolute;
+      top: 68%;
+      left: 35%;
+      transform: translate(-50%, 50%); } }
+  #nav-portrait .port-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 50%); }
+    #nav-portrait .port-text span {
+      font-size: calc(1.4em + 1.4vw);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: whitesmoke;
+      font-weight: 700;
+      mix-blend-mode: darken;
+      right: -38px;
+      position: relative; }
+    #nav-portrait .port-text input {
+      font-size: 1.4em;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: whitesmoke;
+      font-weight: 700;
+      right: -42px; }
+    #nav-portrait .port-text h1 {
+      font-size: calc(2.5em + 2.5vw);
+      font-weight: 100;
+      color: #E91E63;
+      letter-spacing: 24px;
+      background-color: aliceblue;
+      mix-blend-mode: color;
+      padding-right: 10px;
+      padding-left: 34px;
+      border-radius: 16px; }
+    #nav-portrait .port-text a {
+      color: white; }
+  @media (max-width: 767px) {
+    #nav-portrait .port-text {
+      position: absolute;
+      top: 13%;
+      left: 50%;
+      transform: translate(-50%, 50%); } }

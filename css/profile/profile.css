@@ -1,0 +1,113 @@
+#nav-profile .profile-background {
+  box-sizing: border-box;
+  transform-style: inherit;
+  width: 100vw;
+  height: 54vh;
+  margin-top: 0; }
+  #nav-profile .profile-background .camera i {
+    position: absolute;
+    top: 34rem;
+    right: 7px;
+    color: gray;
+    font-size: calc(1em + 1vw); }
+  #nav-profile .profile-background .camera i:hover {
+    position: absolute;
+    top: 34rem;
+    right: 7px;
+    color: lightgray;
+    font-size: calc(1em + 1vw); }
+  #nav-profile .profile-background .nav-top {
+    list-style: none;
+    display: flex;
+    top: 23px;
+    position: absolute;
+    right: 239px; }
+    #nav-profile .profile-background .nav-top a {
+      text-decoration: none; }
+      #nav-profile .profile-background .nav-top a li {
+        padding-right: 15px;
+        color: aliceblue;
+        font-size: 15px;
+        transition: all .3s; }
+        #nav-profile .profile-background .nav-top a li:hover {
+          padding-right: 15px;
+          color: rgba(233, 30, 99, 0.31);
+          font-size: 15px;
+          transition: all .3s; }
+  #nav-profile .profile-background:before {
+    background: 50% 10% / cover; }
+  #nav-profile .profile-background::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    right: 0;
+    display: block;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(233, 30, 99, 0.31), rgba(233, 30, 99, 0.31)), url(../../images/building-profile.jpg);
+    transform: translateZ(-1px) scale(2);
+    width: 100vw;
+    height: 367px;
+    z-index: -1;
+    background-position-y: 0;
+    margin-top: 0px;
+    position: absolute;
+    top: -145px; }
+  #nav-profile .profile-background .port-text {
+    box-shadow: 0px 0px 5px;
+    position: absolute;
+    top: -51%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: white; }
+    #nav-profile .profile-background .port-text .camera i {
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      color: gray;
+      font-size: calc(1em + 1vw); }
+    #nav-profile .profile-background .port-text .camera i:hover {
+      position: absolute;
+      top: 7px;
+      right: 7px;
+      color: lightgray;
+      font-size: calc(1em + 1vw); }
+    #nav-profile .profile-background .port-text .brief-text .item h2 {
+      text-align: center;
+      font-size: calc(1.5em + 1.5vw); }
+    #nav-profile .profile-background .port-text .brief-text .item .beside {
+      display: flex;
+      place-content: center; }
+      #nav-profile .profile-background .port-text .brief-text .item .beside a i {
+        color: #e91e63;
+        margin: 25px;
+        font-size: calc(1.2em + 1.2vw);
+        position: relative;
+        top: 28px; }
+    #nav-profile .profile-background .port-text .disc {
+      margin: 10px;
+      top: -14px;
+      position: relative; }
+      #nav-profile .profile-background .port-text .disc ul {
+        list-style: none; }
+      #nav-profile .profile-background .port-text .disc i {
+        color: #e91e63;
+        font-size: calc(1.2em + 1.2vw); }
+    #nav-profile .profile-background .port-text img {
+      width: 50vw; }
+    #nav-profile .profile-background .port-text input {
+      font-size: 1.4em;
+      text-transform: uppercase;
+      font-weight: 700; }
+    #nav-profile .profile-background .port-text h1 {
+      text-align: center;
+      font-weight: 100; }
+    #nav-profile .profile-background .port-text a {
+      color: black;
+      text-decoration: none; }
+      #nav-profile .profile-background .port-text a i {
+        font-size: calc(1em + 1vw); }
+  @media (max-width: 500px) {
+    #nav-profile .profile-background .port-text {
+      width: 77vw; }
+      #nav-profile .profile-background .port-text img {
+        width: 77vw; } }

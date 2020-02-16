@@ -1,0 +1,48 @@
+#info {
+  padding-bottom: 12rem;
+  background-color: #ec97b4;
+  background-attachment: fixed;
+  padding-bottom: 83px; }
+  #info .my-button a {
+    right: 29%;
+    top: 55px;
+    text-decoration: none;
+    color: white; }
+    #info .my-button a i {
+      font-size: 17px;
+      background-color: #dd1c1c;
+      border-style: hidden;
+      border-radius: 50%; }
+    #info .my-button a:hover {
+      right: -35%;
+      top: 78px;
+      text-decoration: none;
+      color: black; }
+  @media (max-width: 767px) {
+    #info .my-button a {
+      right: 47%;
+      top: 128px;
+      text-decoration: none;
+      color: white; }
+      #info .my-button a:hover {
+        right: 47%;
+        top: 128px;
+        text-decoration: none;
+        color: black; } }
+  @media (max-width: 992px) {
+    #info .my-button a {
+      right: 38%;
+      top: 128px;
+      text-decoration: none;
+      color: white; }
+      #info .my-button a:hover {
+        right: 38%;
+        top: 128px;
+        text-decoration: none;
+        color: black; } }
+
+@media (min-width: 992px) {
+  #info {
+    padding-bottom: 12rem;
+    background-color: #ec97b4;
+    background-attachment: fixed; } }

@@ -1,0 +1,9 @@
+#brief .brief-img {
+  width: 100%; }
+
+#brief .brief-text .item .beside {
+  display: flex; }
+  #brief .brief-text .item .beside i {
+    padding: 18px;
+    font-size: 68px;
+    color: #e91e63; }

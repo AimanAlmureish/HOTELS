@@ -1,0 +1,18 @@
+#brands-slider {
+  margin-top: 0em;
+  background-color: white; }
+  #brands-slider .owl-carousel a {
+    text-decoration: none; }
+
+#share {
+  background-color: rgba(225, 193, 255, 0.397); }
+  #share .share-text h1 {
+    text-align: center;
+    align-content: center; }
+  #share .share-text a {
+    text-decoration: none;
+    color: rgba(98, 10, 180, 0.61); }
+    #share .share-text a i {
+      text-align: center;
+      font-size: 50px;
+      letter-spacing: -15px; }

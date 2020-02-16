@@ -1,0 +1,32 @@
+.port-img {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 30vw 0 5vw;
+    position: absolute;
+    transform-style: inherit;
+    width: 100vw;
+}
+
+h1 {
+    margin-top: -100px;
+}
+
+.port-img,
+.port-img:before {
+    background: 50% 50% / cover;
+}
+
+.port-img::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    background-image: url(../images/portrait.jpg);
+    background-size: cover;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+}
